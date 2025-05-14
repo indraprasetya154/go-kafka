@@ -1,23 +1,45 @@
-# go-kafka
+# 📦 go-kafka
 
-A simple Go application that demonstrates Kafka producer and consumer functionality.
+**go-kafka** is a simple Go application demonstrating Kafka producer and consumer functionality.
 
-## Installation
+---
 
-1.  Make sure you have Go installed.
-2.  Clone the repository:
+## Steps to Run
 
-    ```bash
-    git clone https://github.com/your-username/go-kafka.git
-    ```
-3.  Navigate to the project directory:
+1. Clone the repository:
 
-    ```bash
-    cd go-kafka
-    ```
+   ```bash
+   git clone https://github.com/your-username/go-kafka.git
+   ```
 
-4.  Run Docker Compose:
+2. Navigate to the project directory:
 
-    ```bash
-    docker-compose up
-    ```
+   ```bash
+   cd go-kafka
+   ```
+
+3. Run Docker Compose to start Kafka and ZooKeeper:
+
+   ```bash
+   docker-compose up -d
+   ```
+
+---
+
+## 📂 Project Structure (optional)
+
+You can add this section if you'd like to give an overview of the project structure:
+
+```
+.
+├── producer/
+│   └── main.go
+├── consumer/
+│   └── main.go
+├── docker-compose.yml
+
+```
+
+---
+
+Let me know if you'd like to include more detailed API instructions or any further customizations!
