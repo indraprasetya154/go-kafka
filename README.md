@@ -18,7 +18,7 @@
    cd go-kafka
    ```
 
-3. Run Docker Compose to start Kafka and ZooKeeper:
+3. Run Docker Compose to start Kafka:
 
    ```bash
    docker-compose up -d
@@ -26,9 +26,7 @@
 
 ---
 
-## 📂 Project Structure (optional)
-
-You can add this section if you'd like to give an overview of the project structure:
+## 📂 Project Structure
 
 ```
 .
